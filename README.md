@@ -9,9 +9,12 @@ In this project, you will make use of Python to explore data related to bike sha
 for three major cities in the United States—Chicago, New York City, and Washington.
 
 ### Files used
+List of the required files to run this program:
 
 washington.csv
+
 new_york_city.csv
+
 chicago.csv
 
 
