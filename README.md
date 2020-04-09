@@ -19,5 +19,6 @@ chicago.csv
 
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+I thank Udacity Programming for Data Science Nanodegree team for teaching me from "How to write a single code line ... to write a whole program" 
+ I thank them again for providing me the resources to complete this task.
 
