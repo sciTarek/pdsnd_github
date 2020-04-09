@@ -284,10 +284,9 @@ def main():
         r=input("do you wanna display row data?yes or No")
         if r=="yes":
             
-            n=int(input("how many rows do you want to view ? please enter intiger number"))
-             
+                   
                         
-        print (df.head(n))
+        print (df.head(50))
         n=0
            
         restart = input('\nWould you like to restart? Enter yes or no.\n')
