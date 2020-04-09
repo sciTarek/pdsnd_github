@@ -137,11 +137,10 @@ def time_stats(df):
     MCH = df['Start Hour'].mode()[0]
     print("\nThis took {} seconds.".format((time.time() - start_time)))
     x=input ("Do You Want to display statistics on the most frequent times of travel ? Yes or No\n"  )
-    if x=='yes':
     
-        print('For the selected City, the month with the most travels is: ' + str(months[MCM-1]).title())
-        print('For the selected City, the most common day of the week is: ' + str(MCD))
-        print('For the selected City, the most common start hour is: ' + str(MCH))
+    print('For the selected City, the month with the most travels is: ' + str(months[MCM-1]).title())
+    print('For the selected City, the most common day of the week is: ' + str(MCD))
+    print('For the selected City, the most common start hour is: ' + str(MCH))
         
    
 
@@ -284,10 +283,9 @@ def main():
         r=input("do you wanna display row data?yes or No")
         if r=="yes":
             
-            n=int(input("how many rows do you want to view ? please enter intiger number"))
-             
+                   
                         
-        print (df.head(n))
+        print (df.head(50))
         n=0
            
         restart = input('\nWould you like to restart? Enter yes or no.\n')
